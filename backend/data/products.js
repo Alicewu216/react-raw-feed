@@ -7,6 +7,7 @@ const products = [
       "The Classic Chicken Meal's main ingredients contains 65% GrassFeed Organic Chicken, 12% Tuna, chicken heart, chicken kidney, and bone powder. Chicken, as the most commly used cat food protein, has the lowest chance for causing allergic reactions. This meal is perfect for cats with sensitive digestive system. It's specially tailor recipe without any shell protien ingredients is made for easy digestion and absorption to reduces chances of vomit and soft poop",
     price: 40,
     countInStock: 15,
+    rating: 4.8,
   },
   {
     name: "The Red Meat Energy Meal",
@@ -16,6 +17,7 @@ const products = [
       "The Red Meat Energy Meal's main ingredients contains 67% GrassFeed Organic Beef, 12% Salmon, duck heart, cow kidney, and bone powder. Beef, provides the richest nutrient for cats at all ages. This recipe is designed for more active cats who excercise on a regular basis. The Fatty acid and Vitamin D from salmon are great from restoring calcium level in the bones, providing strong support for any intense ball chasing and apartment exploring",
     price: 42,
     countInStock: 12,
+    rating: 4.7,
   },
   {
     name: 'The Savory "Baaaa" Meal',
@@ -25,6 +27,7 @@ const products = [
       "The Savory \"Baaaa\" Meal's main ingredients contains 64% GrassFeed Organic Lamb, 10% Atalantic Macherel, mussles, chicken gizzards, chicken kidney, and bone powder. Lamb is a protein considered delicious in most cat population. This recipe is designed to help your cat(s) to switch to new eating routine with ease. The addition of mussels made this particular recipe more enjoyable, let alone the fact that gizzards already putted in it's fun of texture",
     price: 43,
     countInStock: 12,
+    rating: 4.9,
   },
   {
     name: "The Brand New Experience Meal",
@@ -34,6 +37,7 @@ const products = [
       "The Brand New Experience Meal's main ingredients contains 64% Rabit, 10% Spanish Macherel, shrimp, chicken heart, cow kidney, and bone powder. You might never tried rabbit before, but it's a all time favorite for most cats. Tastes similar as everyday chicken, but with more micronutrient and more fun. The addition of Spnish Macherel provides Omega-3 to the cat with to help with bone health and fur beauty",
     price: 45,
     countInStock: 10,
+    rating: 4.6,
   },
   {
     name: "Chief's Favorite Bird Meal",
@@ -44,6 +48,7 @@ const products = [
 
     price: 43,
     countInStock: 12,
+    rating: 4.7,
   },
   {
     name: "This Mystery Box Meal",
@@ -53,6 +58,7 @@ const products = [
       "This Mystery Box Meal contains 65% of currenly hot saleing meat on the market depending on the season (pork, beef, lamb, chicken or duck), 10% of currently hot selling fish (salmon, tuna, or macherels). This meal plan has the same guarenteed qualities, but it's more randomized based on the everyday market. We offer you with a bigger discount. It would be a great opportunity for grasp. IT's like taking your furry family member on a fun blind date to see what he or she likes",
     price: 38,
     countInStock: 15,
+    rating: 4.8,
   },
 ];
 

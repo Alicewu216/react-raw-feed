@@ -1,0 +1,36 @@
+.research {
+    width: 700px;
+    padding: 1rem;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+.research_title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.research_author {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+.research_preview {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .research > img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 8px;
+  }

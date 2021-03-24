@@ -1,0 +1,23 @@
+.comment {
+    width: 700px;
+    padding: 1rem;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+.comment_user {
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.info_description {
+    font-size: 1rem;
+  }
+

@@ -6,6 +6,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen";
+import CommentScreen from "./screens/CommentScreen";
+import ResearchScreen from "./screens/ResearchScreen";
+import SigninScreen from "./screens/SigninScreen"
 
 //components imports
 import Navbar from "./components/Navbar";
@@ -24,11 +27,11 @@ function App() {
           <Route exact path="/" component={HomeScreen} />
           <Route exact path="/products/:id" component={ProductScreen} />
           <Route exact path="/cart" component={CartScreen} />
+          <Route exact path="/comments" component={CommentScreen} />
+          <Route exact path="/researches" component={ResearchScreen} />
+          <Route exact path="/signin" component={SigninScreen} />
         </Switch>
       </main>
-      {/*Home*/}
-      {/*ProdcutScreen*/}
-      {/*CartScreen*/}
 
     </Router>
   );

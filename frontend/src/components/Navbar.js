@@ -14,15 +14,24 @@ const Navbar = ({ click }) => {
   return (
     <nav className="navbar">
       <div className="navbar_logo">
-        
       <Link to={`/`} className="cartItem_name">
       <h2>RawFeed Cat Meal Prep</h2>
       </Link>
-
-        
       </div>
 
       <ul className="navbar_links">
+      <li>
+        <Link to="/signin">SignUp/Login</Link>
+        </li>
+      <li>
+        <Link to="/researches">Researches</Link>
+        </li>
+        <li>
+        <Link to="/comments">Comments</Link>
+        </li>
+        <li>
+          <Link to="/">Shop</Link>
+        </li>
         <li>
           <Link to="/cart" className="cart_link">
             <i className="fas fa-shopping-cart"></i>
@@ -31,9 +40,7 @@ const Navbar = ({ click }) => {
             </span>
           </Link>
         </li>
-        <li>
-          <Link to="/">Shop</Link>
-        </li>
+        
       </ul>
 
       <div className="hamburger_menu" onClick={click}>
